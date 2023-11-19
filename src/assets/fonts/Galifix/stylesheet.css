@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Galifex';
+    src: url('GalifexMedium.eot');
+    src: local('Galifex Medium'), local('GalifexMedium'),
+        url('GalifexMedium.eot?#iefix') format('embedded-opentype'),
+        url('GalifexMedium.woff2') format('woff2'),
+        url('GalifexMedium.woff') format('woff'),
+        url('GalifexMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galifex';
+    src: url('GalifexRegular.eot');
+    src: local('Galifex'), local('GalifexRegular'),
+        url('GalifexRegular.eot?#iefix') format('embedded-opentype'),
+        url('GalifexRegular.woff2') format('woff2'),
+        url('GalifexRegular.woff') format('woff'),
+        url('GalifexRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galifex';
+    src: url('GalifexLight.eot');
+    src: local('Galifex Light'), local('GalifexLight'),
+        url('GalifexLight.eot?#iefix') format('embedded-opentype'),
+        url('GalifexLight.woff2') format('woff2'),
+        url('GalifexLight.woff') format('woff'),
+        url('GalifexLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Galifex';
+    src: url('GalifexBold.eot');
+    src: local('Galifex Bold'), local('GalifexBold'),
+        url('GalifexBold.eot?#iefix') format('embedded-opentype'),
+        url('GalifexBold.woff2') format('woff2'),
+        url('GalifexBold.woff') format('woff'),
+        url('GalifexBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,1084 @@
+
+.smallspan{
+    background: linear-gradient(97deg, #4B1120 -19.1%, #D21D4C 40.56%, #E24231 101.29%, #F89A5B 185.47%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 700;
+}
+
+.sectionCover{
+
+    margin-bottom: 30px;
+    background-image:url('../../assets/svg/Aboutus.svg') ;
+    background-size: cover;
+    background-attachment:unset;
+    height: 370px;
+
+}
+.coverContent{
+    margin-top: 120px;
+    margin-left: 450px;
+    justify-content: center;
+    width: 516px;
+    height: 78;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    
+
+}
+.OurPeopleCoverContent{
+
+
+
+}
+
+
+
+.sectionCover h1{
+    background: linear-gradient(to right, #CC1D4A, #F89A5B);
+    -webkit-background-clip: text;
+    color: transparent;
+ 
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.sectionCover p{
+
+    color: #FFF;
+
+  
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.023%; /* 30.005px */
+}
+
+
+
+
+
+
+/*start who-we-are */
+.sectionOne{
+
+margin: 0;
+margin-bottom: 50px;
+background-image:url('../../assets/svg/who_are.svg') ;
+background-size: cover;
+background-attachment:unset;
+padding: 50px;
+}
+.secOneContent{
+    display: flex;
+  justify-content: center;
+   
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+
+}
+
+.secOneContent h1{
+    display: flex;
+    justify-content: center;
+   margin-left: 50px;
+}
+
+.title{
+
+
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 32px;
+font-style: bold;
+font-weight: 700;
+}
+
+/*who-we-are  pargraph   1  */
+.first{
+
+
+
+
+margin-top: 20px;
+overflow-y: hidden;
+width:1005px;
+font-size: 25px;
+color: #1E0D12;
+text-align: center;
+font-style: normal;
+font-weight: 400;
+line-height: 35.005px;
+
+}
+
+.second {
+
+
+    
+    
+    margin-top: 10px;
+    overflow-y: hidden;
+    width:1005px;
+    font-size: 25px;
+    color: #1E0D12;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35.005px;
+    
+
+
+}
+
+.third {
+
+    
+    
+    margin-top: 30px;
+    overflow-y: hidden;
+    width:1005px;
+    font-size: 25px;
+    color: #1E0D12;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.005px;
+
+
+
+}
+
+  /*END who-we-are */
+
+  .sectionThree{
+    margin-top: 45px;
+    
+}
+
+
+
+  .ourMisiion{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 1st column auto-width, and three equal-sized columns */
+    gap: 20px; /* Adjust the gap as needed */
+
+  }
+
+
+.ourtitle{
+display: flex;
+margin-left: 60px;
+gap: 16px;
+grid-column: 1 / 2; /* Occupies the first column */
+width: 350px;
+}
+
+.arrow{
+
+width: 54px;
+height: 46px;
+
+}
+
+
+.H-our{
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+   /* right side */
+
+   .ourText {
+     /* Spans from the second to the last column */
+    /* Additional styles */
+    grid-column-start:2;
+    width: 850px;
+    color: #1E0D12;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150.023%; 
+      
+
+  }
+
+  .ourPurpose{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 1st column auto-width, and three equal-sized columns */
+    gap: 20px; /* Adjust the gap as needed */
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+
+.line{
+
+    width: 900px;
+    margin-left: 15%;
+}
+
+
+          /*    section Why phoneix
+                with pic with Hover
+          */
+
+
+    .whySection{
+     margin-top: 100px;
+     position:relative;
+    }      
+
+    .whytitle{
+   text-align: center;
+   color: #1E0D12;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   margin-bottom: 40px;
+   text-transform: uppercase;
+    }
+
+    .whyimagesOne{
+         display: flex;
+         
+    }
+
+    .imagesOne{
+
+        width: 714px;
+        height: 348px;
+        padding: 2px;
+        cursor: pointer;
+    }
+
+ 
+    .imagesTwo{
+        
+        width: 714px;
+        height: 348px;
+        padding: 2px;
+        cursor: pointer;
+    }
+
+    .imagesthree{
+
+
+        width: 714px;
+        height: 348px;
+        padding: 2px;
+        cursor: pointer;
+    }
+
+    .imagesfour{
+        width: 714px;
+        height: 348px;
+        padding: 2px;
+        cursor: pointer;
+
+    }
+
+    .circle{
+  position: absolute;
+  top: 150px;
+  left: 350px;
+  z-index: -10;
+  width: 600px;
+  height: 400px;
+  background-color:#cb5573 ;
+  border-radius: 50%;
+    }
+
+
+.contentvary{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.contentvary h4{
+    width: 873.062px;
+    color: #4D4346;
+
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.023%; /* 33.605px */
+    letter-spacing: -0.24px;
+
+
+}
+
+.contentvary p{
+
+    color: #929292;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+
+}
+
+
+
+
+
+
+
+
+
+    .vary{
+  
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+
+
+
+
+    }
+
+
+
+
+
+    .ourpeoplecover {
+
+        background-image: url('../../assets/svg/ourpeoplecover.svg');
+      
+      margin-bottom: 30px;
+      
+      background-size: cover;
+      background-attachment:unset;
+      height: 370px;
+      
+      }
+
+
+      .OurPeopleCoverContent{
+
+
+        margin-top: 120px;
+        margin-left: 450px;
+        justify-content: center;
+        width: 631px;
+        height: 95;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+      
+    .OurPeopleCoverContent h1{
+      
+          color: var(--white, #FFF);
+      
+          width:215px;
+          font-size: 32px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          text-transform: uppercase;
+          margin-right: 100px;
+      
+      }
+      
+
+      .OurPeopleCoverContent h4{
+        color:  #FFF;
+
+    
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150.023%; /* 48.007px */
+        width : 631px ;
+      }
+
+
+
+
+
+       /*the content of our people section*/
+
+    .ourpeopleContent{
+
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    width: 964px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-left: 210px;
+
+    }
+
+    .ourpeopleContent h1{
+
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150.023%; /* 48.007px */
+        text-transform: uppercase;
+        margin-bottom: 40px;
+
+
+
+        background: linear-gradient(97deg, #4B1120 -19.1%, #D21D4C 40.56%, #E24231 101.29%, #F89A5B 185.47%);
+        background-clip: text;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+
+
+    }
+
+
+    .ourpeopleContent p{
+    
+        color: #1E0D12;
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150.023%; /* 30.005px */
+
+    }
+
+ .ourpeopleContent .ourpeoplepraghOne{
+    
+        color: #1E0D12;
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150.023%; /* 30.005px */
+
+    }
+
+    .ourpeopleContent .ourpeoplepraghTwo{
+    
+        color: #1E0D12;
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150.023%; /* 30.005px */
+
+    }
+
+    .ourpeopleContent .ourpeoplepraghThree{
+    
+        color: #1E0D12;
+        text-align: center;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150.023%; /* 30.005px */
+
+    }
+    
+    
+    .ourpeopleContent h3{
+
+
+     font-family: Gotham;
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 150.023%; /* 24.004px */
+     text-transform: uppercase;
+
+
+     background: linear-gradient(94deg, #4B1120 -72.55%, #D21D4C 34.42%, #E24231 143.3%, #F89A5B 294.19%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
+    }
+
+
+
+
+
+    .ourpeopleContent .ourpeopleheadone{
+
+
+
+        font-family: Gotham;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150.023%; /* 24.004px */
+        text-transform: uppercase;
+   
+   
+        background: linear-gradient(94deg, #4B1120 -72.55%, #D21D4C 34.42%, #E24231 143.3%, #F89A5B 294.19%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+
+
+    }
+
+
+
+
+    .ourpeopleContent .ourpeopleheadtwo{
+
+
+
+        font-family: Gotham;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150.023%; /* 24.004px */
+        text-transform: uppercase;
+   
+   
+        background: linear-gradient(94deg, #4B1120 -72.55%, #D21D4C 34.42%, #E24231 143.3%, #F89A5B 294.19%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.founder{
+
+margin-top: auto;
+
+
+}
+
+.founderOne{
+
+display: flex;
+justify-content: space-around;
+position: relative;
+margin-top: 0px;
+overflow-y: hidden;
+padding-top: 80px;
+
+}
+
+.founder h1{
+
+color: #1E0D12;
+text-align: center;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+margin-top: 50px;
+margin-bottom: 0px;
+
+
+}
+
+
+.founderOne h3{
+    color: #1E0D12;
+
+  
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.founderOne h4{
+
+    color: var(--Red, #CC1D4A);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+     text-align: center;
+}
+
+
+
+.polygonone {
+
+position: absolute;
+left:330px;
+top: 40px;
+
+
+
+}
+.polygontwo {
+
+    position: absolute;
+    right:325px;
+    top: 480px;
+    transform: rotate(170deg);
+    
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              /* for make mobile responsive */
+
+@media (max-width: 768px) {
+  /* Styles for mobile devices go here */
+  /* Adjust your styles for smaller screens */
+
+
+       /* first cover */
+  .coverimg {
+    position: absolute;
+    width: 1000px;
+    background-size: contain;
+    top:0px;
+    left: -310px;
+
+    }
+
+    .coverimgtwo {
+        position: absolute;
+        width: 768px;
+        background-size: contain;
+        top:230px;
+        left: -100px;
+    
+        }
+    
+        .who-we-are{
+            position: fixed;
+            margin: 0;
+            margin-bottom: 150px;
+            }
+
+
+            .title{
+            position: absolute;
+            top:250px;
+            left: 125px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            font-style: bold;
+            font-weight: 700;
+            }
+
+       /* pargraph who we are section*/
+
+       .first{
+
+        position: absolute;
+        top: 290px ;
+        left: 5px;
+        
+        
+        margin-top: 0px;
+        overflow-y: hidden;
+        width:350px;
+        font-size: 10px;
+        color: #1E0D12;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+    
+        line-height: 15.005px;
+        
+        }
+
+     /* second pargragh of who we are*/
+
+     .second {
+
+
+        position: absolute;
+        top: 370px ;
+        left: 5px;
+        
+        
+        margin-top: 0px;
+        overflow-y: hidden;
+        width:350px;
+        font-size: 10px;
+        color: #1E0D12;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15.005px;
+    
+    
+    }
+
+          /* third pargragh of who we are*/
+
+
+          .third {
+
+            position: absolute;
+            top:460px ;
+            left: 5px;
+            
+            margin-top: 0px;
+            overflow-y: hidden;
+            width:350px;
+            font-size: 10px;
+            color: #1E0D12;
+            text-align: center;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 15.005px;
+            margin-right: 5px;
+        
+        
+        }
+
+
+
+        .our{
+            margin-top: 45px;
+            z-index: -1;
+            position: relative;
+        }
+        
+        
+        
+          .ourMisiion{
+            display: flex;
+             /* 1st column auto-width, and three equal-sized columns */
+             /* Adjust the gap as needed */
+             position: relative;
+             top: 300px;
+          }
+       
+          .ourtitle{
+            display: flex;
+            margin-left: -60px;
+            }
+            
+            .arrow{
+            
+            width: 80px;
+            height: 50px;
+            margin-left: 40px;
+            }
+
+
+
+
+            .ourText {
+                /* Spans from the second to the last column */
+               /* Additional styles */
+        
+               width: 850px;
+               color: #1E0D12;
+               font-size: 0px;
+               font-style: normal;
+               font-weight: 400;
+               line-height: 150.023%; 
+          
+           
+             }
+
+
+
+  .whySection{
+position: relative;
+left: 0px;
+margin-top: 100px;
+margin-bottom: 100px;
+display: none; 
+     }
+
+        
+.vary{
+position: absolute;
+display: block;
+margin-left: 0px;
+top: 700px;
+left: 5px;
+
+}
+.valyimage{
+
+width: 350px;
+margin-top: 0px;
+margin-bottom: 20px;
+
+}
+
+
+
+.ourpeoplecover {
+
+  background-image: url('../../assets/svg/ourpeoplecover.svg');
+
+margin-bottom: 30px;
+
+background-size: cover;
+background-attachment:unset;
+height: 370px;
+
+}
+
+.ourpeoplecover h1{
+
+    color: var(--white, #FFF);
+
+   
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.ourpeopleContent{
+
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    width: 964px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-left: 1px;
+
+    }
+
+    .ourpeopleContent h1{
+
+        text-align: center;
+        font-size: 12px;
+        width: 350px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150.023%; /* 48.007px */
+        text-transform: uppercase;
+        margin-bottom: 40px;
+
+
+
+        background: linear-gradient(97deg, #4B1120 -19.1%, #D21D4C 40.56%, #E24231 101.29%, #F89A5B 185.47%);
+        background-clip: text;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+
+
+    }
+
+
+
+
+    .ourpeopleContent p{
+      
+
+        color: #1E0D12;
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150.023%; /* 30.005px */
+
+    }
+    
+    
+    .ourpeopleContent h3{
+
+
+     font-family: Gotham;
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 150.023%; /* 24.004px */
+     text-transform: uppercase;
+
+
+     background: linear-gradient(94deg, #4B1120 -72.55%, #D21D4C 34.42%, #E24231 143.3%, #F89A5B 294.19%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
+     
+
+
+
+    }
+
+    
+   .ourpeopleContent .ourpeoplepraghOne{
+    
+        color: #1E0D12;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150.023%; /* 30.005px */
+        width: 370px;
+    }
+
+
+    .ourpeopleContent .ourpeoplepraghTwo{
+    
+        position: absolute;
+        top: 1080px;
+        right: 10px;
+
+
+        width: 370px;
+        color: #1E0D12;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150.023%; /* 30.005px */
+
+    }
+
+    .ourpeopleContent .ourpeoplepraghThree{
+    
+        position: absolute;
+        top: 1270px;
+
+        width:370px;
+        color: #1E0D12;
+        text-align: center;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150.023%; /* 30.005px */
+
+    }
+
+   
+
+       .ourpeopleContent .ourpeopleheadone{
+
+        position: absolute;
+        top: 1200px;
+        left: 100px;
+
+        font-family: Gotham;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150.023%; /* 24.004px */
+        text-transform: uppercase;
+   
+   
+        background: linear-gradient(94deg, #4B1120 -72.55%, #D21D4C 34.42%, #E24231 143.3%, #F89A5B 294.19%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+
+
+    }
+
+
+
+
+    .ourpeopleContent .ourpeopleheadtwo{
+
+
+        position: absolute;
+        top: 1240px;
+        left: 20px;
+
+        font-family: Gotham;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150.023%; /* 24.004px */
+        text-transform: uppercase;
+   
+   
+        background: linear-gradient(94deg, #4B1120 -72.55%, #D21D4C 34.42%, #E24231 143.3%, #F89A5B 294.19%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+
+
+    }
+
+    .founder{
+
+        display: none;
+        margin-top: 500px;
+        
+        }
+
+}
+
+
